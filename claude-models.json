@@ -1,0 +1,14 @@
+{
+  "_comment": "Catálogo de modelos de Claude para el selector de ABIX Studio. Publicar en emakys/abix-studio-releases (rama main, raíz del repo) como claude-models.json. Editar este archivo y hacer commit basta para que todas las instalaciones vean el modelo nuevo — no requiere publicar un instalador. Lo consume src/services/modelsCatalogService.ts (caché 24 h).",
+  "updated": "2026-09-24",
+  "models": [
+    { "value": "claude-opus-5", "label": "Claude Opus 5 (lo más capaz)" },
+    { "value": "claude-fable-5", "label": "Claude Fable 5 (razonamiento profundo)" },
+    { "value": "claude-sonnet-5", "label": "Claude Sonnet 5 (tareas diarias)" },
+    { "value": "claude-haiku-4-5", "label": "Claude Haiku 4.5 (respuestas rápidas)" },
+    { "value": "claude-opus-4-8", "label": "Claude Opus 4.8 (generación anterior)" },
+
+    { "value": "opus", "label": "Opus — siempre el más reciente (alias)" },
+    { "value": "sonnet", "label": "Sonnet — siempre el más reciente (alias)" }
+  ]
+}
